@@ -1,3 +1,15 @@
+---
+title: Plant Disease Classifier
+emoji: 🌿
+colorFrom: green
+colorTo: emerald
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # 🌿 Crop Disease Classifier
 
 Detects **38 plant diseases** across 14 crop species from leaf images using **transfer learning (ResNet50)**. Trained on the PlantVillage dataset — achieves **87%+ validation accuracy** with a two-phase fine-tuning strategy.
